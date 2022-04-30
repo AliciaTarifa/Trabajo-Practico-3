@@ -20,8 +20,7 @@ public class Ejercicio_08 {
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-
-	    List<String> nombres = List.of("Alicia", "Luis", "Tiziano", "Felipe", "Josefina", "Sofía", "Cristóbal", "Manuel", "Isabel", "Delfina");
+        List<String> nombres = List.of("Alicia", "Luis", "Tiziano", "Felipe", "Josefina", "Sofía", "Cristóbal", "Manuel", "Isabel", "Delfina");
 	    System.out.print("Ingrese un nombre: ");
 
 	    String nombreABuscar = scanner.nextLine();
@@ -39,6 +38,7 @@ public class Ejercicio_08 {
 	    }else{
 	      System.out.println("Nombre no encontrado.");
 	    }
+	    scanner.close();
 
 	}
 
