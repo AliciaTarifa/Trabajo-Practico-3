@@ -59,7 +59,7 @@ public class Ejercicio_10 {
 		}
 		    System.out.println();
 		    }
-		
+		scr.close();
 
 	}
 	
