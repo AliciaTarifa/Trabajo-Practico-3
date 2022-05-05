@@ -3,6 +3,7 @@
  */
 package Ejercicios;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -27,6 +28,8 @@ public class Ejercicio_16 {
 		
 		String msj = irAOpcion(opcion);
 		System.out.println(msj);
+		
+		scr.close();
 	}
 	public static String irAOpcion(int opc) {
 		String msjARetornar;
